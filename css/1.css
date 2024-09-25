@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #463b3b;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.character {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    font-size: 18px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px;
+    font-family: 'Arial', sans-serif; /* Font style */
+    transition: 0.3s ease; /* Smooth hover transition */
+}
+
+/* Styling the 'Yes' button with border */
+.yes {
+    background-color: #28a745; /* Green background */
+    border: 2px solid #218838; /* Dark green border */
+}
+
+/* Hover effect for 'Yes' button */
+.yes:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker border on hover */
+}
+
+/* Styling the 'No' button with border */
+.no {
+    background-color: #d30d21; /* Red background */
+    border: 2px solid #c82333; /* Dark red border */
+}
+
+/* Hover effect for 'No' button */
+.no:hover {
+    background-color: #218838; /* Darker red on hover */
+    border-color: #c82333; /* Darker border on hover */
+}
+
